@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Aktualisieren</title>
+    <!-- Smart App Banner für die Beispiel-App mit der ID 570060128 -->
+    <meta name="apple-itunes-app" content="app-id=570060128">
+    <style>
+        /* CSS-Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Grundlegendes Seiten-Layout */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        /* Nachrichtentext */
+        .message {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Pfeildesign */
+        .arrow {
+            font-size: 5rem;
+            color: #4CAF50;
+            animation: bounce 1s infinite;
+        }
+
+        /* Pfeil-Bounce-Animation */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Du kannst jetzt die App Duolingo aktualisieren!</div>
+    <div class="arrow">⬆️</div>
+</body>
+</html>
